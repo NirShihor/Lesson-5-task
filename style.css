@@ -1,0 +1,178 @@
+body {
+  font-family: Poppins, sans-serif;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    height: 3700px;
+  }
+}
+
+
+.heading1 { /* First Heading at top */
+  text-align: center;
+  font-weight: 200;
+  padding-top: 5%;
+}
+
+.heading2 {
+  text-align: center;
+}
+
+p.heading3 {
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  line-height: 160%;
+  color: #B4B5B7;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  p.heading3 {
+    font-size: 95%;
+    line-height: 200%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+  }
+}
+
+.table {
+  border-spacing: 23px; /* Space between the boxes (cells) */
+  text-align: center;
+}
+
+.box1 {
+  -webkit-box-shadow: 5px 25px 44px -16px rgba(171,166,171,1);
+-moz-box-shadow: 5px 25px 44px -16px rgba(171,166,171,1);
+box-shadow: 5px 25px 44px -16px rgba(171,166,171,1); border-radius: 4px; margin-top: 25px; display: inline-block; border-top: 4px solid #45d3d3; height: 200px; width: 330px; margin-left: 25%;
+}
+
+.box2 {
+  -webkit-box-shadow: 5px 25px 44px -16px rgba(171,166,171,1);
+-moz-box-shadow: 5px 25px 44px -16px rgba(171,166,171,1);
+box-shadow: 5px 25px 44px -16px rgba(171,166,171,1); border-radius: 4px; margin-top: 25px; display: inline-block; border-top: 4px solid #ea5353; height: 200px; width: 330px;
+}
+
+.box3 {
+  -webkit-box-shadow: 5px 25px 44px -16px rgba(171,166,171,1);
+-moz-box-shadow: 5px 25px 44px -16px rgba(171,166,171,1);
+box-shadow: 5px 25px 44px -16px rgba(171,166,171,1); border-radius: 4px; margin-top: 25px; display: inline-block; border-top: 4px solid #fcaf4a; height: 200px; width: 330px;
+}
+
+.box4 {
+  -webkit-box-shadow: 5px 25px 44px -16px rgba(171,166,171,1);
+-moz-box-shadow: 5px 25px 44px -16px rgba(171,166,171,1);
+box-shadow: 5px 25px 44px -16px rgba(171,166,171,1); border-radius: 4px; margin-top: 25px; display: inline-block; border-top: 4px solid #549ef2; height: 200px; width: 330px; margin-left: -50%;
+}
+
+.img {
+  margin-left: 50%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  img.img {
+    height: 30%;
+    margin-top: 5%;
+  }
+}
+
+
+.boxheading {
+  font-weight: 600; text-align: left; margin-left: 25px; margin-top: 25px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  p.boxheading {
+    font-size: 400%;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+}
+
+.textinbox {
+  color: #B4B5B7; line-height: 0px; font-size: 15px; text-align: left; margin-left: 25px; margin-top: 25px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  h2.heading1, h2.heading2 {
+    font-size: 400%;
+  }
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  p.textinbox {
+    font-size: 260%;
+    line-height: 40%;
+    padding-left: 5%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  div.box1  {
+    width: 90%;
+    height: 600px;
+    display: block;
+    text-align: center;
+    margin-left: 0%;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  div.box2  {
+    width: 90%;
+    height: 600px;
+    display: block;
+    text-align: center;
+    margin-left: 0%;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  div.box3  {
+    width: 90%;
+    height: 600px;
+    display: block;
+    text-align: center;
+    margin-left: 0%;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  div.box4  {
+    width: 90%;
+    height: 600px;
+    display: block;
+    text-align: center;
+    margin-left: 0%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  div.box1{
+    border-radius: 12px; margin-top: 25px; display: inline-block; border-top: 8px solid #45d3d3;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  div.box2{
+    border-radius: 12px; margin-top: 100px; display: inline-block; border-top: 8px solid #ea5353;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  div.box3{
+    border-radius: 12px; margin-top: 100px; display: inline-block; border-top: 8px solid #fcaf4a;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  div.box4{
+    border-radius: 12px; margin-top: 100px; display: inline-block; border-top: 8px solid #549ef2;
+  }
+}
